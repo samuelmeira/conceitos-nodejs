@@ -61,7 +61,6 @@ app.post("/repositories/:id/like", (request, response) => {
   }
   repository.likes++
   return response.json(repository);
-  // TODO
 });
 
 module.exports = app;
